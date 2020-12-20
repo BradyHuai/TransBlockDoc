@@ -6,9 +6,28 @@
 Welcome to TransBlock's documentation!
 ======================================
 
+=======
+Create TransBlock Instance
 ======
-create
-======
+
+To create a TransBlock Instance, use the new BlockGenerator() function
+
+>> const blockInstance = new BlockGenerator();
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+
 
 .. toctree::
    :maxdepth: 2
