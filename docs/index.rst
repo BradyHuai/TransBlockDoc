@@ -9,15 +9,28 @@ Welcome to TransBlock's documentation!
 ===============
 Getting Started
 ===============
+To use TransBlock.js, simply install TransBlock package to your app folder and import the following line to your html head
+
+<link rel="stylesheet" type="text/css" href="transblock.css">
+
+<script src="https://kit.fontawesome.com/6d2ce75821.js" crossorigin="anonymous"></script>
+
+<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script defer type="text/javascript" src='transblock.js'></script>
 
 
 ===========
 Constructor
 ===========
 
-To create a TransBlock Instance, use the new BlockGenerator() function
+To create a TransBlock Instance, use the new BlockGenerator(id) function
 
->> const blockInstance = new BlockGenerator();
+param: id of the instance
+
+param type: string
+
+>> const blockInstance = new BlockGenerator("instance1");
 
 ==========
 Properties
